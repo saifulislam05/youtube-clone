@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube UI Clone</title>
     <!-- --------Fontawesome icons----------- -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script> -->
+    <!-- ---- icons---- -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,14 +18,14 @@
     <!-- ----- Header Section Start------ -->
     <header class="header">
         <div class="logo-side">
-            <i class="fa-solid fa-bars"></i>
+            <i class="material-icons">menu</i>
             <img src="https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc"
                 alt="youtube_image">
         </div>
         <div class="search-bar">
             <form action="">
                 <input type="text" placeholder="Search">
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button><i class="material-icons">search</i></button>
             </form>
         </div>
         <div class="icons-side">
@@ -69,8 +71,54 @@
                 <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
             </svg>
         </div>
-
     </header>
+    <!-- ----- Header Section Start------ -->
+
+    <main>
+        <!-- -----Side-bar Start------  -->
+        <aside class="side-bar">
+            <div class="nav-items">
+                <div class="item">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </div>
+                <div class="item">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Trending</span>
+                </div>
+                <div class="item">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </div>
+            </div>
+            <hr>
+            <div class="nav-items">
+                <div class="item">
+                    <i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                </div>
+                <div class="item">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </div>
+                <div class="item">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your Videos</span>
+                </div>
+                <div class="item">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </div>
+                <div class="item">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                </div>
+            </div>
+        </aside>
+        <!-- -----Side-bar End------  -->
+
+    </main>
+
 </body>
 
 </html>

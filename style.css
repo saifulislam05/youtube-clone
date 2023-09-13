@@ -6,7 +6,7 @@
 
 /* ----- Header Section Start------ */
 .header {
-    padding:1%;
+    padding: 10px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,3 +55,27 @@
     width: 24px;
 }
 /* ----- Header Section End------ */
+
+/* ----- Side-bar Section Start------ */
+.side-bar{
+    width: 15%;
+}
+.nav-items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin:15px 0;
+}
+.nav-items .item {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+.nav-items .item span {
+    margin-left: 15px;
+}
+.nav-items .item:hover {
+    background-color: #e5e5e5;
+}
+/* ----- Side-bar Section End------ */
