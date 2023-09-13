@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----- Header Section Start------ */
+.header {
+    padding:1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-side{
+    display: flex;
+    align-items: center;
+}
+.logo-side i {
+    padding: 0 10px;
+    cursor: pointer;
+}
+.logo-side img {
+    width: 50px;
+    margin-left: 10px;
+}
+.search-bar{
+    width: 40%;
+}
+.search-bar form{
+    height: 35px;
+    display: flex;
+    border: 1px solid #ddd;
+}
+.search-bar input {
+    width: 95%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    border: none;
+}
+
+.search-bar button {
+
+    height: 100%;
+    border: none;
+    padding: 1% 2%;
+}
+.icons-side{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons-side svg{
+    width: 24px;
+}
+/* ----- Header Section End------ */
