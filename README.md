@@ -1,6 +1,6 @@
 # YouTube UI Clone Assignment CSS
 
-
+## Hosted Link: [View Live Project](https://saifulislam05.github.io/youtube-clone/)
 ## Project Description
 The "YouTube UI Clone" project is a web page that replicates the design of the YouTube video streaming platform's user interface. It includes a header section, a side-bar navigation menu, and a video content section.
 
