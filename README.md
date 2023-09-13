@@ -7,16 +7,22 @@ The "YouTube UI Clone" project is a web page that replicates the design of the Y
 ## HTML Explanation
 
 ### Header (`.header`)
+![image](https://github.com/saifulislam05/youtube-clone/assets/73392705/7d57ef8d-90bf-48c8-9499-7c659683c527)
+
 - The header section contains the logo, search bar, and navigation icons.
 - The logo is a combination of an icon and an image.
 - The search bar allows users to input search queries.
 - Navigation icons include icons for videos, grid, notifications, and user profile.
 
 ### Side-bar (`.side-bar`)
+![image](https://github.com/saifulislam05/youtube-clone/assets/73392705/b5c7a6df-78f4-45e6-ad4a-d9d615bcfd7e)
+
 - The side-bar is a navigation menu that includes links to various sections of the YouTube app.
 - It is divided into two sections: "Main" and "Library."
 
 ### Videos Section (`.videos`)
+![image](https://github.com/saifulislam05/youtube-clone/assets/73392705/c5dbfc8b-81dd-4034-b16b-4bbd94785281)
+
 - The videos section displays a list of video thumbnails, titles, authors, and view counts.
 - It includes a "Recommend" heading.
 
